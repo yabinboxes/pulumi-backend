@@ -4,7 +4,7 @@ import IAutodeployUnit from './autodeploy-unit.interface'
 import IControllerBase from '../../interfaces/IControllerBase.interface'
 
 class AutodeployUnitController implements IControllerBase {
-    public path = '/autodeploy-unit'
+    public path = '/autodeploy'
     public router = express.Router()
 
     constructor() {
