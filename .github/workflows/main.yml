@@ -23,5 +23,6 @@ jobs:
         run: |
           npm run dev > /dev/null 2>&1 &
           sleep 20s
-      - name: test api
-        run: "curl -X GET 'http://localhost:5000/deploy-dev-unit' -H 'accept: application/json'"
+      - name: autodeploy
+        run: |
+          curl -X GET 'http://localhost:5000/autodeploy' -H 'accept: application/json'
