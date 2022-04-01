@@ -20,17 +20,17 @@ class PluginsController implements IControllerBase {
         return res.json({
             list: [
                 {
-                    name: 'pipeline deployment', 
+                    name: 'Create Bucket', 
                     description: 'github pipeline deploy',
                     content: 'plugin content'
                 },
                 {
-                    name: 'pipeline unit test', 
+                    name: 'Deploy in GCP', 
                     description: 'pipeline test',
                     content: 'plugin content'
                 },
                 {
-                    name: 'pipeline automation test', 
+                    name: 'Exec Unit Test Angular', 
                     description: 'pipeline automation',
                     content: 'plugin content'
                 }
