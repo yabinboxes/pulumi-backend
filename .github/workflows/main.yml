@@ -1,6 +1,8 @@
 name: Pulumi Backend Lint, Test & Build
 
-on: [push]
+on:
+  repository_dispatch:
+    types: [build]
 
 jobs:
   builds:
