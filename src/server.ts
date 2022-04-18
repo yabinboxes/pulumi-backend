@@ -11,7 +11,7 @@ import ProdUnitController from './controllers/prod-unit/prod-unit.controller'
 import AutodeployUnitController from './controllers/autodeploy-unit/autodeploy-unit.controller'
 
 const app = new App({
-    port: 80,
+    port: 5000,
     controllers: [
         new HomeController(),
         new DevUnitController(),
