@@ -9,6 +9,7 @@ import ImagesController from './controllers/images/images.controller'
 import PluginsController from './controllers/plugis/plugins.controller'
 import ProdUnitController from './controllers/prod-unit/prod-unit.controller'
 import AutodeployUnitController from './controllers/autodeploy-unit/autodeploy-unit.controller'
+import InventoryController from './controllers/inventory/inventory.controller'
 
 const app = new App({
     port: 5000,
@@ -18,7 +19,8 @@ const app = new App({
         new ImagesController(),
         new PluginsController(),
         new ProdUnitController(),
-        new AutodeployUnitController()
+        new AutodeployUnitController(),
+        new InventoryController()
     ],
     middleWares: [
         bodyParser.json(),
