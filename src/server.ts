@@ -12,7 +12,7 @@ import AutodeployUnitController from './controllers/autodeploy-unit/autodeploy-u
 import InventoryController from './controllers/inventory/inventory.controller'
 
 const app = new App({
-    port: 5000,
+    port: 80,
     controllers: [
         new HomeController(),
         new DevUnitController(),
